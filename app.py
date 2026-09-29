@@ -67,7 +67,7 @@ def train_model(data):
 model, accuracy, feature_names = train_model(df)
 
 # Sidebar - Overview & Navigation
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/ thumb/8/87/Careem_logo.svg/512px-Careem_logo.svg.png", width=180)
+st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Careem_logo.svg/512px-Careem_logo.svg.png", width=180)
 st.sidebar.markdown("---")
 st.sidebar.subheader("🎯 Customer Profiler")
 selected_id = st.sidebar.selectbox("Select User ID to Analyze:", df['user_id'])
